@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Content Moover';
+    src: url('../fonts/content-moover.eot');
+    src: url('../fonts/content-moover.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/content-moover.woff') format('woff'),
+         url('../fonts/content-moover.ttf') format('truetype'),
+         url('../fonts/content-moover.svg#content-moover') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class*='dashicons-']:before{
+	display: inline-block;
+   font-family: 'Content Moover';
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale
+}
+.dashicons-cow-svgrepo-com:before{content:'\0041';}
